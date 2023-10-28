@@ -2,10 +2,11 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/vueblog?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://120.48.11.177:3306/vueblog?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
     username: root
-    password: admin
+    password: Mysql12345^
 shiro-redis:
   enabled: true
   redis-manager:
-    host: 127.0.0.1:6379
+    host: 120.48.11.177:6379
+    password: redis12345^
